@@ -1,2 +1,2 @@
 # CTGraph
-OSM City Graph Generator
+OSM City Graph Generator Tool
