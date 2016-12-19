@@ -124,7 +124,7 @@ for way_id in ways_dir:
 graph_file.write('\t</arcs>\n')
 
 # include nodes in graph file
-graph_file.write('\t</nodes>\n')
+graph_file.write('\t<nodes>\n')
 for ref_node in intersections_list:
     lat, lon = nodes[ref_node]
     easting, northing, zone, letter = utm.from_latlon(float(lat),float(lon))
