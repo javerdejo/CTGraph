@@ -128,6 +128,7 @@ for way_id in ways_dir:
     named_file.write(str(way_id) + ',' + name + ',' + name_ref + '\n')
 # end for
 
+# Main functions
 streets_file.close()
 nodes_file.close()
 named_file.close()
